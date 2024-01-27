@@ -3,13 +3,13 @@ import { FirebaseOptions, initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 
 export const firebaseConfig: FirebaseOptions = {
-  apiKey: env.NEXT_PUBLIC_FIREBASE_API_KEY,
-  authDomain: env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN,
-  projectId: env.NEXT_PUBLIC_FIREBASE_PROJECT_ID,
-  storageBucket: env.NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET,
-  messagingSenderId: env.NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID,
-  appId: env.NEXT_PUBLIC_FIREBASE_APP_ID,
-  measurementId: env.NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID,
+  apiKey: "IzaSyAt6GaS5rZNxXLSaNf7QsDzR14akBQKNcU",
+  authDomain: "ganchat-dd078.firebaseapp.com",
+  projectId: "ganchat-dd078",
+  storageBucket: "ganchat-dd078.appspot.com",
+  messagingSenderId: "728824725279",
+  appId: "1:728824725279:web:4a49173d576f72e59aba2a",
+  measurementId: "G-TBX6YY8S41",
 };
 
 const app = initializeApp(firebaseConfig);
